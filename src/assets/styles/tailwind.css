@@ -1,0 +1,42 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@layer base {
+  .outer-container {
+    @apply lg:container w-full mx-auto;
+    margin: auto;
+  }
+  @media (min-width: 0) and (max-width: 768px) {
+    .outer-container {
+      padding-left: 16px;
+      padding-right: 16px;
+    }
+  }
+  @media (min-width: 768px) and (max-width: 1024px) {
+    .outer-container {
+      padding-left: 10px;
+      padding-right: 10px;
+    }
+  }
+
+  .inner-container-spacing {
+    @apply sm:px-8 lg:px-10 xl:px-14;
+  }
+
+  /*MISC*/
+  .-z-1 {
+    z-index: -1;
+  }
+
+  @layer utilities {
+    .h-inherit {
+      height: inherit;
+    }
+
+    .h-max {
+      height: max-content;
+    }
+  }
+}
+
+/*# sourceMappingURL=tailwind.css.map */
