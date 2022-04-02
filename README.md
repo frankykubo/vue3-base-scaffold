@@ -1,4 +1,14 @@
-# <span style="font-weight: 700;color: #42b883; background: #35495e; padding: 5px; border-radius: 10px">Vue 3</span><span style="margin-left: 10px; font-weight: 300;">Base scaffold</span>
+<style type="text/css">
+h1 {
+    font-weight: 700;
+    color: #42b883;
+    background: #35495e;
+    padding: 5px;
+    border-radius: 10px;
+}
+</style>
+
+# <h1>Vue 3 Base scaffold</h1>
 
 ## Project setup
 ```
