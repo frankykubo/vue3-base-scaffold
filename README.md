@@ -1,11 +1,11 @@
-<div>
+<a href="#features">
     <img src="git/header.svg" alt="css-in-readme" />
-</div>
+</a>
 <br>
 
 Vue3 ready-to-run and ready-to-develop app packed with useful tools based on <a href="https://github.com/vuejs/vue-cli" target="_blank">@vue/cli</a> (webpack).
 
-# <b>Features</b>
+# <b id="features">Features</b>
 
 ### <b>Typescript</b>
 Creating this scaffold, important thing for me was to use typescript. Project comes also with *.eslintrc.js*, which can help you produce some good coding habits to produce better quality code.
