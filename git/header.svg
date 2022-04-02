@@ -1,0 +1,31 @@
+<svg fill="none" viewBox="0 0 290 80" xmlns="http://www.w3.org/2000/svg" width="300" height="80">
+    <foreignObject width="100%" height="100%">
+        <div xmlns="http://www.w3.org/1999/xhtml">
+            <style>
+            h1 {
+                background-color: #35495e;
+                color: #42b883;
+                animation: mymove 5s infinite;
+                padding: 10px;
+                border-radius: 20px;
+            }
+
+            @keyframes mymove {
+                0% {
+                    color: #42b883;
+                    background-color: #35495e;
+                }
+                50% {
+                    color: #35495e;
+                    background-color: #42b883;
+                }
+                100% {
+                    color: #42b883;
+                    background-color: #35495e;
+                }
+            }
+            </style>
+            <h1>Vue 3 Base scaffold</h1>
+        </div>
+    </foreignObject>
+</svg>
