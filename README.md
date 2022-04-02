@@ -1,4 +1,4 @@
-# new-vue-app
+# <span style="font-weight: 700;color: #42b883; background: #35495e; padding: 5px; border-radius: 10px">Vue 3</span><span style="margin-left: 10px; font-weight: 300;">Base scaffold</span>
 
 ## Project setup
 ```
