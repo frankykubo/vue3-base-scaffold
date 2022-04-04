@@ -44,6 +44,11 @@ Bothered with IDE not recommending any routes, when you want to use `<router-lin
 ### <b>Examples</b>
 Project comes with basic structure. When you open *App.vue* or *HelloWorld.vue*, you will see everything written above in practical use. 
 
+# <b>Docker</b>
+You can run this project inside a docker container. Simply create an image by running cmd/bash command:
+`docker-compose up --build`
+And your container is ready to go. Hot reloading works as well.
+
 ## Project setup
 ```
 npm install -g @vue/cli
